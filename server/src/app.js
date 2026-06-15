@@ -43,7 +43,7 @@ app.use('/api/v1/admin', adminRoutes);
 app.use('/api/v1/exams', examRoutes);
 
 // Handle undefined routes
-app.use('*', (req, res) => {
+app.use((req, res) => {
   res.status(404).json({ message: 'API Route Not Found' });
 });
 
