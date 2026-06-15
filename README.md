@@ -25,14 +25,13 @@ Quizzer is an easy-to-use online exam platform built with the MERN stack (MongoD
 
 ## 📸 Screenshots
 
-*(Replace placeholders with actual project screenshots)*
-
-* **Admin Dashboard** - `/screenshots/dashboard.png`
-* **Test Builder Interface** - `/screenshots/builder.png`
-* **Mobile Exam View** - `/screenshots/mobile-exam.png`
-* **Detailed Results Analysis** - `/screenshots/results.png`
-* **Leaderboard** - `/screenshots/leaderboard.png`
-
+* **Student Dashboard** - <img width="1898" height="907" alt="image" src="https://github.com/user-attachments/assets/cb7d5141-5f25-4ca8-bc53-ac095a94a569" />
+* **Admin Dashboard** - <img width="1919" height="878" alt="image" src="https://github.com/user-attachments/assets/0ad101a6-81df-4574-87e8-22e147ae35ea" />
+* **Test Builder Interface** - <img width="1919" height="874" alt="image" src="https://github.com/user-attachments/assets/11e9cc0c-d561-4d0e-b6a9-9f3e4e5b7635" />
+* **Exam View** - <img width="1919" height="906" alt="image" src="https://github.com/user-attachments/assets/2bd73ade-fe56-4ded-9a89-627c7a7b6538" />
+* **Exam Result** - <img width="1903" height="908" alt="image" src="https://github.com/user-attachments/assets/571e78a6-869e-4728-8bb9-4e216486f1d8" />
+* **Detailed Result Analysis** - <img width="1896" height="906" alt="image" src="https://github.com/user-attachments/assets/3dfd359a-855d-40b5-9a5a-f1c1ccffc3d6" />
+* **Leaderboard** - <img width="1901" height="875" alt="image" src="https://github.com/user-attachments/assets/861341d5-0340-4ea4-90a3-965b4743472c" />
 ---
 
 ## 🛠 Tech Stack & Why We Used It
