@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #2563EB;
+  --bg-color: #FFFFFF;
+  --card-bg: #F8FAFC;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: #1E293B;
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
