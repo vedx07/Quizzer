@@ -42,20 +42,10 @@ app.use('/api/v1/auth', authRoutes);
 app.use('/api/v1/admin', adminRoutes);
 app.use('/api/v1/exams', examRoutes);
 
-// Serve Frontend in Production
-import path from 'path';
-import { fileURLToPath } from 'url';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
-if (process.env.NODE_ENV === 'production') {
-  app.use(express.static(path.join(__dirname, '../../client/dist')));
-
-  app.get('*', (req, res) => {
-    res.sendFile(path.resolve(__dirname, '../../client/dist', 'index.html'));
-  });
-}
+// Handle undefined routes
+app.use('*', (req, res) => {
+  res.status(404).json({ message: 'API Route Not Found' });
+});
 
 // Global Error Handler
 app.use((err, req, res, next) => {
